@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.ext %}
+        <style type="text/css">
+        body {
+            color: #792a08;
+            font-family: monospace;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-evenly; */
+            overflow: hidden;
+        }
+
+        img.header {
+            height: 15vh;
+        }
+
+        img.avatar {
+            height: 35vh;
+        }
+
+        .about {
+            width: 50vw;
+            text-align: justify;
+        }
+
+        @media (max-width: 650px) {
+            .about {
+                width: 90vw;
+            }
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="header">
+                <a href="/"><img class="header" src="assets/header.png"></a>
+            </div>
+            <div class="avatar">
+                <img class="avatar" src="assets/isaanddogs.png">
+            </div>
+            <div class="about">
+                <p>
+                    {{ content }}
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
