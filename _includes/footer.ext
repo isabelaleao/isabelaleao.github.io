@@ -3,7 +3,7 @@
         <a href="https://www.instagram.com/{{ site.instagram_username }}">
             <i class="fa-brands fa-instagram fa-2xl"></i>
         </a>
-        <a href="https://www.instagram.com/{{ site.twitter_username }}">
+        <a href="https://www.twitter.com/{{ site.twitter_username }}">
             <i class="fa-brands fa-twitter fa-2xl"></i>
         </a>
     </div>
