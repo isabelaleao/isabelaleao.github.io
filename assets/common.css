@@ -14,10 +14,18 @@ body {
     min-height: 100vh;
 }
 
+.content .header {
+    margin-top: 20px;
+}
+
 .content footer {
     margin-top: 50px;
     width: 100%;
     align-self: flex-end;
+}
+
+.content .animation-list {
+    margin-top: 20px;
 }
 
 .header img {
@@ -92,7 +100,7 @@ img.mascot {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30vw;
+    width: 20vw;
     margin: 10px;
 }
 
@@ -100,14 +108,10 @@ img.mascot {
     .animation-item {
         width: 90%;
     }
-
-    .animation-item > video {
-        width: 100%;
-    }
 }
 
 .animation-item > video {
-    width: 25vw;
+    width: 100%;
 }
 
 .animation-title {
