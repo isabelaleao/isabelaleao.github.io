@@ -11,6 +11,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Isabela Leao</title>
 <meta property="og:title" content="Isabela Leao" />
@@ -26,6 +27,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"The artist, originally from Maceió-AL, Brazil, holds a degree in Architecture. She has previously worked on designing houses, creating clothing collections and managing a restaurant. In recent years, she has decided to devote herself to painting, experimenting with different techniques and mediums. Currently, she has been blending her artistic production by exploring deeper and more melancholic themes while also creating animations with lighter and more amusing subjects.","headline":"Isabela Leao","name":"Isabela Leao","url":"https://isabelaleao.com/"}</script>
 <!-- End Jekyll SEO tag -->
+
 <link rel="stylesheet" href="/assets/common.css">
 <link type="application/atom+xml" rel="alternate" href="https://isabelaleao.com/feed.xml" title="Isabela Leao" />
 <link rel="icon" type="image/x-icon" href="assets/logo.ico">
