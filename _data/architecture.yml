@@ -1,17 +1,19 @@
 - section: cambito
-  filename: Cambito. Pratos-11 (1).jpg
+  filename: Cambito. Pratos-13 (1).jpg
+  css: photo-tall
 
 - section: cambito
-  filename: Cambito. Pratos-13 (1).jpg
+  filename: Cambito. Pratos-11 (1).jpg
 
 - section: cambito
   filename: Cambito. Pratos-33.jpg
 
 - section: cambito
-  filename: Cambito. Pratos-16.jpg
+  filename: Cambito. Pratos-38.jpg
 
 - section: cambito
-  filename: Cambito. Pratos-38.jpg
+  filename: Cambito. Pratos-16.jpg
+  css: photo-tall
 
 - section: cambito
   filename: Cambito. Pratos-39.jpg

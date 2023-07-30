@@ -8,10 +8,15 @@
             <div class="header">
                 <a href="/"><img class="header" src="/assets/header.png"></a>
             </div>
-            <div class="photo-list">
+            <div class="photo-grid">
                 {% for arch in site.data.architecture %}
                     {% if page.section == arch.section %}
-                    <div class="photo-item">
+                    <div
+                        {% if arch.css %}
+                        class="photo-item {{arch.css}}">
+                        {% else %}
+                        class="photo-item">
+                        {% endif %}
                         <img src="/assets/architecture/{{ arch.section }}/{{ arch.filename }}" loading="lazy">
                     </div>
                     {% endif %}
