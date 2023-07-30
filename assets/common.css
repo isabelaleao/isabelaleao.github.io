@@ -50,7 +50,6 @@ img.mascot {
 }
 
 .menu > li {
-    margin: 0px 1em 0px 1em;
     user-select: none;
     width: 100%;
 }
