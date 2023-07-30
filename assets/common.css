@@ -71,6 +71,10 @@ img.mascot {
     font-size: x-large;
 }
 
+.menu.width-auto {
+    width: auto;
+}
+
 .menu > li > a {
     color: #D3967B;
     text-decoration: none;
