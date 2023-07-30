@@ -14,7 +14,9 @@
                         {% else %}
                         class="photo-item">
                         {% endif %}
-                        <img src="/assets/paintings/{{ painting.filename }}" loading="lazy">
+                        <a href="/assets/paintings/{{ painting.filename }}">
+                            <img src="/assets/paintings/{{ painting.filename }}" loading="lazy">
+                        </a>
                         <span class="photo-title">[{{ painting.title }}]</span>
                     </div>
                 {% endfor %}

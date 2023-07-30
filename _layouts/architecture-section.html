@@ -15,7 +15,9 @@
                         {% else %}
                         class="photo-item">
                         {% endif %}
-                        <img src="/assets/architecture/{{ arch.section }}/{{ arch.filename }}" loading="lazy">
+                        <a href="/assets/architecture/{{ arch.section }}/{{ arch.filename }}">
+                            <img src="/assets/architecture/{{ arch.section }}/{{ arch.filename }}" loading="lazy">
+                        </a>
                     </div>
                     {% endif %}
                 {% endfor %}
