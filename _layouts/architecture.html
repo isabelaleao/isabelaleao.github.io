@@ -5,9 +5,7 @@
     </head>
     <body>
         <div class="content">
-            <div class="header">
-                <a href="/"><img class="header" src="/assets/header.png"></a>
-            </div>
+            {% include header.ext %}
             <div class="photo-list">
                 {% assign all_sections = site.data.architecture | map: "section" | uniq %}
                 {% for section in all_sections %}
@@ -21,7 +19,7 @@
                 </div>
                 {% endfor %}
             </div>
-            {% include footer.ext %}
+            {% include footer.ext disable_menu=true %}
         </div>
     </body>
 </html>

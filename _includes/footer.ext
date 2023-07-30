@@ -1,4 +1,8 @@
 <footer>
+    {% if include.disable_menu %}
+    {% else %}
+        {% include menu.ext css="small" %}
+    {% endif %}
     <div class="footer-content">
         <a href="https://www.instagram.com/{{ site.instagram_username }}">
             <i class="fa-brands fa-instagram fa-2xl"></i>
