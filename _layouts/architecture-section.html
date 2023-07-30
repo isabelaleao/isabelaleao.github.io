@@ -6,7 +6,7 @@
     <body>
         <div class="content">
             {% include header.ext %}
-            <div class="photo-grid">
+            <div class="photo-grid {{ page.css }}">
                 {% for arch in site.data.architecture %}
                     {% if page.section == arch.section %}
                     <div

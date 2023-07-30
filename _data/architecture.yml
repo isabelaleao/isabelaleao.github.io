@@ -85,10 +85,11 @@
   filename: CASA GUAXUMA -.jpg
 
 - section: casa guaxuma
-  filename: 20230726_103809.jpg
+  filename: 20230726_103631.jpg
+  css: photo-wide
 
 - section: casa guaxuma
-  filename: 20230726_103631.jpg
+  filename: 20230726_103809.jpg
 
 - section: casa guaxuma
   filename: cover.jpg

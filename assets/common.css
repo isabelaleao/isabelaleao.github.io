@@ -127,9 +127,17 @@ footer {
 .photo-grid {
     display: grid;
     justify-items: center;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     width: 75%;
     gap: 25px;
+}
+
+.photo-grid.column2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo-grid.column3 {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .photo-list {
@@ -165,6 +173,10 @@ footer {
 
 .photo-wide {
     grid-column: span 2 / auto;
+}
+
+.column3 .photo-wide {
+    grid-column: span 3 / auto;
 }
 
 .photo-tall {
