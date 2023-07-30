@@ -104,16 +104,6 @@ img.mascot {
     margin: 10px;
 }
 
-@media (max-width: 500px) {
-    .animation-item {
-        width: 90%;
-    }
-
-    .photo-item {
-        width: 90%;
-    }
-}
-
 .animation-item > video {
     width: 100%;
 }
@@ -157,7 +147,15 @@ img.avatar {
     text-align: justify;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
+    .animation-item {
+        width: 90%;
+    }
+
+    .photo-item {
+        width: 90%;
+    }
+
     .about {
         width: 90vw;
     }
