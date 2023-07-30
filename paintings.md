@@ -1,0 +1,4 @@
+---
+layout: paintings
+css: large
+---

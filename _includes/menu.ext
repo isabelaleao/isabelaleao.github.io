@@ -1,6 +1,6 @@
 <ul class="menu {{ include.css }}">
     <li><a href="/animations">ANIMATIONS</a></li>
-    <li><a>PAINTINGS</a></li>
+    <li><a href="/paintings">PAINTINGS</a></li>
     <li><a href="/architecture">ARCHITECTURE</a></li>
     <li><a href="https://isabelaleao.lojavirtualnuvem.com.br">SHOP</a></li>
     <li><a href="/about">ABOUT</a></li>

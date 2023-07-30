@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.ext %}
+    </head>
+    <body>
+        <div class="content">
+            {% include header.ext %}
+            <div class="photo-grid {{ page.css }}">
+                {% for painting in site.data.paintings %}
+                    <div
+                        {% if arch.css %}
+                        class="photo-item {{painting.css}}">
+                        {% else %}
+                        class="photo-item">
+                        {% endif %}
+                        <img src="/assets/paintings/{{ painting.filename }}" loading="lazy">
+                        <span>[{{ painting.title }}]</span>
+                    </div>
+                {% endfor %}
+            </div>
+            {% include footer.ext %}
+        </div>
+    </body>
+</html>
