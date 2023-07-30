@@ -12,7 +12,7 @@
                 {% for arch in site.data.architecture %}
                     {% if page.section == arch.section %}
                     <div class="photo-item">
-                        <img src="/assets/architecture/{{ arch.section }}/{{ arch.filename }}">
+                        <img src="/assets/architecture/{{ arch.section }}/{{ arch.filename }}" loading="lazy">
                     </div>
                     {% endif %}
                 {% endfor %}
