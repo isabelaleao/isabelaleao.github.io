@@ -19,20 +19,12 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 50px;
     width: 100%;
 }
 
 .header img {
     height: 15vh;
-}
-
-.content footer {
-    width: 100%;
-    align-self: flex-end;
-}
-
-.content .animation-list {
-    margin: 20px 0px 20px 0px;
 }
 
 .mascot {
@@ -84,12 +76,19 @@ img.mascot {
     text-decoration: underline;
 }
 
+footer {
+    margin-top: 50px;
+    width: 100%;
+    align-self: flex-end;
+}
+
 .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 50px;
+    margin-top: 10px;
 }
 
 .footer-content i {
@@ -103,7 +102,6 @@ img.mascot {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 75%;
-    margin: 20px 0px 20px 0px;
 }
 
 .animation-item {
@@ -129,7 +127,6 @@ img.mascot {
     grid-template-columns: 50% 50%;
     width: 75%;
     gap: 10px;
-    margin: 20px 0px 20px 0px;
 }
 
 .photo-list {
@@ -138,7 +135,6 @@ img.mascot {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 0px 20px 0px;
 }
 
 .photo-item {
