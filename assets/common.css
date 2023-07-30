@@ -191,7 +191,7 @@ img.avatar {
 
 @media (max-width: 650px) {
     .menu.normal {
-        font-size: small;
+        font-size: x-small;
     }
 
     .menu.large {
