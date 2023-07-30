@@ -9,7 +9,7 @@
                 <a href="/"><img class="header" src="assets/header.png"></a>
             </div>
             <div class="animation-list">
-                {% for animation in site.animations %}
+                {% for animation in site.data.animations %}
                 <div class="animation-item">
                     <video controls>
                         <source src="/assets/animations/{{ animation.file_prefix }}.webm" type="video/webm">
@@ -17,7 +17,7 @@
                         Your browser does not support the video tag.
                     </video>
                     <span class="animation-title">
-                        {{ animation.title }}
+                        [{{ animation.title }}]
                     </span>
                 </div>
                 {% endfor %}
