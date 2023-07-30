@@ -2,6 +2,6 @@
     <a href="/"><img src="/assets/header.png"></a>
     {% if include.disable_menu %}
     {% else %}
-    {% include menu.ext css="small" %}
+    {% include menu.ext css="normal" %}
     {% endif %}
 </div>
