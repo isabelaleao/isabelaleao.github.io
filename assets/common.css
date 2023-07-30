@@ -108,6 +108,10 @@ img.mascot {
     .animation-item {
         width: 90%;
     }
+
+    .photo-item {
+        width: 90%;
+    }
 }
 
 .animation-item > video {
@@ -115,6 +119,31 @@ img.mascot {
 }
 
 .animation-title {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.photo-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin: 10px;
+}
+
+.photo-item img {
+    width: 100%;
+}
+
+.photo-title {
     margin-top: 5px;
     text-align: center;
 }

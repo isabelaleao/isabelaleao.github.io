@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.ext %}
+    </head>
+    <body>
+        <div class="content">
+            <div class="header">
+                <a href="/"><img class="header" src="/assets/header.png"></a>
+            </div>
+            <div class="photo-list">
+                {% assign all_sections = site.data.architecture | map: "section" | uniq %}
+                {% for section in all_sections %}
+                <div class="photo-item">
+                    <a href="/architecture/{{ section | replace: ' ', '-'}}">
+                        <img src="/assets/architecture/{{ section }}/cover.jpg">
+                    </a>
+                    <span class="photo-title">
+                        [{{ section | upcase }}]
+                    </span>
+                </div>
+                {% endfor %}
+            </div>
+            {% include footer.ext %}
+        </div>
+    </body>
+</html>
