@@ -1,8 +1,9 @@
-body {
+html, body {
     margin: 0px;
     padding: 0px;
     color: #792a08;
     font-family: monospace;
+    min-height: 100vh;
 }
 
 .content {
