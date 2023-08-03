@@ -1,9 +1,14 @@
+:root {
+    --doc-height: 100%;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
     color: #792a08;
     font-family: monospace;
-    min-height: 100vh;
+    min-height: 100vh; /* fallback to JS */
+    min-height: var(--doc-height);
 }
 
 .content {
@@ -12,7 +17,8 @@ html, body {
     align-items: center;
     overflow: hidden;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 100vh; /* fallback to JS */
+    min-height: var(--doc-height);
 }
 
 .header {

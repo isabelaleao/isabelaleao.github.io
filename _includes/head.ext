@@ -32,3 +32,12 @@
 <link rel="stylesheet" href="/assets/common.css">
 <link type="application/atom+xml" rel="alternate" href="https://isabelaleao.com/feed.xml" title="Isabela Leao" />
 <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
+
+<script>
+  const documentHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`);
+  }
+  window.addEventListener('resize', documentHeight)
+  documentHeight()
+</script>
