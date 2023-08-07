@@ -1,0 +1,24 @@
+<script>
+    function send_event(evt) {
+        element = this;
+        if (this.matches('[data-event-action]')) {
+            const action = element.getAttribute('data-event-action');
+            const category = element.getAttribute('data-event-category');
+            const label = element.getAttribute('data-event-label');
+            const goTo = element.getAttribute('data-href');
+
+            gtag('event', action, {
+                'event_category': category,
+                'event_label': label
+            });
+
+            if (element.tagName == 'A' && goTo) {
+                setTimeout(() => { document.location.href = goTo }, 100);
+            }
+        }
+    }
+    document.querySelectorAll('a[data-event-action]')
+        .forEach((el) => el.addEventListener('click', send_event));
+    document.querySelectorAll('video[data-event-action]')
+        .forEach((el) => el.addEventListener('play', send_event));
+</script>

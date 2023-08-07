@@ -38,7 +38,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="/assets/common.css">
 <link type="application/atom+xml" rel="alternate" href="https://isabelaleao.com/feed.xml" title="Isabela Leão" />
-<link rel="icon" type="image/x-icon" href="/assets/logo.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <script>
   const documentHeight = () => {

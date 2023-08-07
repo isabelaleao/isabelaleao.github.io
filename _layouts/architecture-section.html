@@ -15,7 +15,7 @@
                         {% else %}
                         class="photo-item">
                         {% endif %}
-                        <a href="/assets/architecture/{{ arch.section }}/{{ arch.filename }}">
+                        <a href="#" data-href="/assets/architecture/{{ arch.section }}/{{ arch.filename }}" data-event-action="click" data-event-category="photo" data-event-label="/assets/architecture/{{ arch.section }}/{{ arch.filename }}">
                             <img src="/assets/architecture/{{ arch.section }}/{{ arch.filename }}" loading="lazy">
                         </a>
                     </div>
@@ -24,5 +24,6 @@
             </div>
             {% include footer.ext %}
         </div>
+        {% include tail_scripts.html %}
     </body>
 </html>

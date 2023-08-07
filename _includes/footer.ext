@@ -4,10 +4,10 @@
         {% include menu.ext css="normal" %}
     {% endif %}
     <div class="footer-content">
-        <a href="https://www.instagram.com/{{ site.instagram_username }}">
+        <a href="https://www.instagram.com/{{ site.instagram_username }}" data-event-action="click" data-event-category="social_network" data-event-label="instagram">
             <i class="fa-brands fa-instagram fa-2xl"></i>
         </a>
-        <a href="https://www.twitter.com/{{ site.twitter_username }}">
+        <a href="https://www.twitter.com/{{ site.twitter_username }}" data-event-action="click" data-event-category="social_network" data-event-label="twitter">
             <i class="fa-brands fa-twitter fa-2xl"></i>
         </a>
     </div>
