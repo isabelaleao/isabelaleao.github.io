@@ -1,5 +1,5 @@
 ---
 layout: architecture
-title: Animations
+title: Architecture
 description: Architectural designs inspired by artistic developments.
 ---
