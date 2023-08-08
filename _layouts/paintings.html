@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.ext %}
+        {% include head.html %}
     </head>
     <body>
         <div class="content">
-            {% include header.ext %}
+            {% include header.html %}
             <div class="photo-grid {{ page.css }}">
                 {% for painting in site.data.paintings %}
                     <div
@@ -21,7 +21,7 @@
                     </div>
                 {% endfor %}
             </div>
-            {% include footer.ext %}
+            {% include footer.html %}
         </div>
         {% include tail_scripts.html %}
     </body>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.ext %}
+        {% include head.html %}
     </head>
     <body>
         <div class="content">
-            {% include header.ext %}
+            {% include header.html %}
             <div class="photo-grid {{ page.css }}">
                 {% for arch in site.data.architecture %}
                     {% if page.section == arch.section %}
@@ -22,7 +22,7 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            {% include footer.ext %}
+            {% include footer.html %}
         </div>
         {% include tail_scripts.html %}
     </body>

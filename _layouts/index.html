@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.ext %}
+        {% include head.html %}
     </head>
     <body>
         <div class="content">
-            {% include header.ext disable_menu=true %}
+            {% include header.html disable_menu=true %}
             <div class="mascot">
                 <img class="mascot" src="assets/mascot.gif">
             </div>
-            {% include menu.ext css="large width-auto" %}
-            {% include footer.ext disable_menu=true %}
+            {% include menu.html css="large width-auto" %}
+            {% include footer.html disable_menu=true %}
         </div>
         {% include tail_scripts.html %}
     </body>

@@ -1,11 +1,16 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZ81W33S9K"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  let isLocalhost = window.location.hostname == '127.0.0.1' || window.location.hostname == 'localhost';
 
-  gtag('config', 'G-TZ81W33S9K');
+  if (!isLocalhost) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TZ81W33S9K');
+  } else {
+    function gtag(){}
+  }
 </script>
 
 <meta charset="utf-8">

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.ext %}
+        {% include head.html %}
     </head>
     <body>
         <div class="content">
-            {% include header.ext %}
+            {% include header.html %}
             <div class="avatar">
                 <img class="avatar" src="assets/isaanddogs.png">
             </div>
@@ -14,7 +14,7 @@
                     {{ content }}
                 </p>
             </div>
-            {% include footer.ext disable_menu=true %}
+            {% include footer.html disable_menu=true %}
         </div>
         {% include tail_scripts.html %}
     </body>

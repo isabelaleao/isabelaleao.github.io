@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.ext %}
+        {% include head.html %}
     </head>
     <body>
         <div class="content">
-            {% include header.ext %}
+            {% include header.html %}
             <div class="photo-list">
                 {% assign all_sections = site.data.architecture | map: "section" | uniq %}
                 {% for section in all_sections %}
@@ -19,7 +19,7 @@
                 </div>
                 {% endfor %}
             </div>
-            {% include footer.ext disable_menu=true %}
+            {% include footer.html disable_menu=true %}
         </div>
         {% include tail_scripts.html %}
     </body>
